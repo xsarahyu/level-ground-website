@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*
+section {
+    border: 1px solid black;
+}
+*/
+
+header, section {
+    width: 100%;
+}
+
+img {
+    width: 2rem;
+}
+
+header, footer {
+    padding: 0 10%;
+}
+
+header {
+    background: #66768a;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    color: white;
+    text-align: center;
+}
+    .headerLeft, .headerMid, .headerRight {
+        float: left;
+        width: 33.3333%;
+        font-weight: bold;
+    }
+
+    .headerLeft nav {
+        padding-top: 0.75rem;
+    }
+
+    .headerLeft li a {
+        float: left;
+        margin-right: 2rem;
+    }
+
+    .headerRight button {
+        float: right;
+        padding: 0.75rem;
+        font-weight: bold;
+        background: white;
+        color: #66768a;
+        border-radius: 0.5rem;
+    }
+
+    header h1 {
+        font-size: 4rem;
+        margin-top: 5rem;
+    }
+
+    header p {
+        font-size: 1.5rem;
+        padding: 2rem 20%;
+    }
+
+    .video img {
+        filter: invert(100%);
+    }
+
+.section1 {
+    background: white;
+    color: #161f2a;
+    text-align: center;
+}
+
+.section2 {
+    background: #dbdfe2;
+    color: #161f2a;
+}
+    .visit-gym {
+        float: left;
+        width: 50%;
+        padding: 5%;
+        text-align: center;
+    }
+    
+    .visit-you {
+        float: left;
+        width: 50%;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .visit-gym-img, .visit-you-img {
+        height: 13rem;
+        width: 60%;
+        background: #66768a;
+        margin-left: 20%;
+    }
+
+    .visit-gym h2, .visit-you h2 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .visit-gym button, .visit-you button {
+        padding: 1rem;
+        width: 9rem;
+        margin-top: 2rem;
+    }
+
+.section3 {
+    background: white;
+    text-align: center;
+}
+    .section3 button {
+        padding: 1rem;
+        width: 9rem;
+        margin-top: 1.5%;
+        margin-bottom: 4%;
+    }
+
+.section1 h1, .section3 h1 {
+    font-size: 2rem;
+    margin-top: 3%;
+    margin-bottom: 1rem;
+}
+
+.section1 p, .section3 p {
+    font-size: 1.25rem;
+    margin: 0 30%;
+    margin-bottom: 3%;
+}
+
+.section3 p {
+    margin-bottom: 1%;
+}
+
+footer {
+    background: #161f2a;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.footerLeft {
+    float: left;
+    width: 30%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+    .socials, .site-map, .contribute {
+        float: left;
+        width: 100%;
+        text-align: left;
+    }
+
+    .footerLeft i {
+        padding-right: 1rem;
+    }
+
+    div span a {
+        color: #66768a;
+    }
+
+    .site-map div, .contribute div {
+        padding-top: 1rem;
+    }
+
+    .site-map > span, .contribute > span {
+        padding-right: 3%;
+    }
+
+.footerMid {
+    float: left;
+    width: 56%;
+}
+
+.footerRight {
+    float: right;
+    width: 14%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+    .orgName, .address {
+        float: left;
+        width: 100%;
+        text-align: left;
+    }
+    
+    address {
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    address a {
+        font-weight: 400;
+    }
+
+.org {
+    clear: both;
+    border-top: 1px solid white;
+    width: 100%;
+}
+    .orgLeft {
+        float: left;
+        width: 70%;
+        text-align: left;
+    }
+
+    .orgRight {
+        float: left;
+        width: 30%;
+        text-align: right;
+        margin-top: 0.5rem;
+    }
+
+@media (max-width: 1346px) {
+    .footerMid {
+        width: 55%;
+    }
+}
+
+@media (max-width: 1305px) {
+    .footerMid {
+        width: 53%;
+    }
+}
+
+@media (max-width: 1284px) {
+    .footerMid {
+        width: 45%;
+    }
+
+    .visit-gym, .visit-you {
+        padding: 4%;
+    }
+}
+
+@media (max-width: 1257px) {
+    .footerMid {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1164px) {
+    .footerMid {
+        width: 30%;
+    }
+
+    .footerRight {
+        width: 15%;
+    }
+
+    .visit-gym, .visit-you {
+        padding: 3%;
+    }
+}
+
+@media (max-width: 1086px) {
+    .footerMid {
+        width: 25%;
+    }
+
+    .footerRight {
+        width: 17%;
+    }
+}
+
+@media (max-width: 1042px) {
+    .visit-gym, .visit-you {
+        padding: 2%;
+    }
+}
+
+@media (max-width: 959px) {
+    .footerMid {
+        width: 20%;
+    }
+
+    .footerRight {
+        width: 20%;
+    }
+
+    .visit-gym, .visit-you {
+        width: 100%;
+        padding: 4%;
+    }
+
+    .visit-gym-img, .visit-you-img {
+        width: 45%;
+        margin-left: 27%;
+    }
+}
+
+@media (max-width: 912px) {
+    .footerMid {
+        width: 15%;
+    }
+
+    .footerRight {
+        width: 25%;
+    }
+}
+
+@media (max-width: 652px) {
+    .footerMid {
+        width: 12%
+    }
+
+    .footerRight {
+        width: 30%;
+    }
+}
+
+@media (max-width: 554px) {
+    .footerLeft {
+        width: 35%;
+    }
+
+    .footerRight {
+        width: 32%
+    }
+}
+
+@media (max-width: 518px) {
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header p {
+        padding: 2rem 15%;
+    }
+
+    .section1 p, .section3 p {
+        font-size: 1.25rem;
+        margin: 0 15%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 509px) {
+    .footerMid {
+        width: 10%;
+    }
+
+    .footerRight {
+        width: 35%;
+    }
+}
+
+@media (max-width: 475px) {
+    .footerLeft {
+        width: 40%;
+    }
+}
+
+@media (max-width: 466px) {
+    .footerMid {
+        width: 5%;
+    }
+
+    .footerRight {
+        width: 40%;
+    }
+}
+
+@media (max-width: 415px) {
+    .footerMid {
+        width: 1%;
+    }
+
+    .footerLeft {
+        width: 43%;
+    }
+}
+
+@media (max-width: 388px) {
+    .footerLeft {
+        width: 50%;
+    }
+
+    .footerMid {
+        display: none;
+    }
+
+    .footerRight {
+        width: 50%;
+    }
+
+    .site-map > span, .contribute > span {
+        padding-right: 1%;
+    }
+}
