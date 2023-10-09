@@ -1,7 +1,7 @@
 # Level Ground Website
 
 ### Description
-A fully responsive mock-up of the Level Ground homepage. Level Ground is a Mixed Martial Arts Club.
+A responsive replica of the Level Ground Mixed Martial Arts homepage.
 
 <img src="level-ground.png">
 
